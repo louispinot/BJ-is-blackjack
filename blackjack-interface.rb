@@ -1,12 +1,11 @@
 require 'pry'
-require_relative 'blackjack_new'
+require_relative 'blackjack-game'
 
 $chips = 100
 
 def one_game_of_blackjack
   #setup
   $score = 0
-  $outcome = nil
   $bet = betting
   $outcome = dealing_cards
 
